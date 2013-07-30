@@ -31,6 +31,7 @@
                         console.log(swaggerApi);
                         console.log(swaggerUi);
                     }
+                    window.swaggerApi = swaggerApi;
                     $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
                     %(OnCompleteScript)
                 },
