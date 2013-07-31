@@ -32,6 +32,7 @@
                         console.log(swaggerUi);
                     }
                     $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
+                    window.swaggerApi = swaggerApi;
                     %(OnCompleteScript)
                 },
                 onFailure: function(data) {
